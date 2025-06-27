@@ -1,3 +1,54 @@
+/* Responsive Design for Mobile */
+@media screen and (max-width: 768px) {
+    body {
+        display: block;
+        margin: 10px;
+    }
+
+    .about {
+        width: 90%;
+    }
+
+    .hero {
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .menu {
+        position: relative;
+        height: auto;
+        padding: 10px;
+    }
+
+    .nav_items {
+        grid-template-rows: auto;
+        gap: 0.5rem;
+        font-size: 1.2rem;
+        justify-content: center;
+    }
+
+    .gallery_1 {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .gallery_2 {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}
+
 
 body {
     display: grid;
